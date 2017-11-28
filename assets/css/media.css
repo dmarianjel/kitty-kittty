@@ -1,0 +1,81 @@
+@media (min-width: 1200px){
+	[class*= "col-"]{
+		width: 100%;
+	}
+	.gatito{
+		content:url(../images/kitten-medium.png);
+		padding-left: 30%;
+		padding-top: 6%;	
+	}	
+}
+@media (min-width: 	992px) and (max-width: 1200px){
+	[class*= "col-"]{
+		width: 100%;
+	}
+	.gatito{
+		content:url(../images/kitten-medium.png);
+		
+	}	
+}
+@media (min-width: 	768px) and (max-width: 991px){
+	[class*= "col-"]{
+		width: 100%;
+	}
+	.background{
+		background-image:url(../images/dawn.png);
+		background-size: cover;
+		height: 100vh;
+	}
+	.gatito{
+		content:url(../images/kitten-large.png);
+		width: 50%;
+		height: auto;
+		padding-left: 30%;
+	}	
+}
+@media (min-width: 	541px) and (max-width: 767px){
+	[class*= "col-"]{
+		width: 100%;
+	}
+	.background{
+		background-image:url(../images/dawn.png);
+		background-size: cover;
+		height: 100vh;
+	}
+	.gatito{
+		content:url(../images/kitten-large.png);
+		width: 40%;
+		height: auto;
+		padding-left: 30%;
+	}
+}	
+
+@media (max-width: 540px){
+	[class*= "col-"]{
+		width: 100%;
+	}
+	.background{
+		background-image:url(../images/night.jpg);
+		background-size: cover;
+		height: 100vh;
+	}
+	.gatito{
+		content:url(../images/kitten-small.png);
+		width: 25%;
+		height: auto;
+		padding-top: 40%;
+		padding-left: 40%;
+	}
+}	
+/*@media(max-width: 574px){
+	[class*="col-"]{
+		width: 100%;
+	}
+	body{
+		background-color: #07b399;
+		color: #dfdfdf;
+	}
+	.img{
+		display: none;
+	}
+}*/
