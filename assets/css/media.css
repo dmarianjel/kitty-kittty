@@ -2,10 +2,18 @@
 	[class*= "col-"]{
 		width: 100%;
 	}
+	.background{
+		background-image:url(../images/sunny-day.jpg);
+		background-size: cover;
+		height: 100vh;
+		overflow: hidden;
+	}	
 	.gatito{
 		content:url(../images/kitten-medium.png);
+		width: 60%;
+		height: auto;
 		padding-left: 30%;
-		padding-top: 6%;	
+		padding-bottom: 20%;	
 	}	
 }
 @media (min-width: 	992px) and (max-width: 1200px){
@@ -14,7 +22,8 @@
 	}
 	.gatito{
 		content:url(../images/kitten-medium.png);
-		
+		width: 40%;
+		height: auto;	
 	}	
 }
 @media (min-width: 	768px) and (max-width: 991px){
@@ -25,12 +34,14 @@
 		background-image:url(../images/dawn.png);
 		background-size: cover;
 		height: 100vh;
+		overflow: hidden;
 	}
 	.gatito{
 		content:url(../images/kitten-large.png);
-		width: 50%;
+		width: 70%;
 		height: auto;
-		padding-left: 30%;
+		padding-left: 5%;
+		margin-bottom: 20%;
 	}	
 }
 @media (min-width: 	541px) and (max-width: 767px){
@@ -41,12 +52,14 @@
 		background-image:url(../images/dawn.png);
 		background-size: cover;
 		height: 100vh;
+		overflow: hidden;
 	}
 	.gatito{
 		content:url(../images/kitten-large.png);
-		width: 40%;
+		width: 60%;
 		height: auto;
-		padding-left: 30%;
+		padding-left: 5%;
+		margin-bottom: 20%;
 	}
 }	
 
@@ -58,13 +71,14 @@
 		background-image:url(../images/night.jpg);
 		background-size: cover;
 		height: 100vh;
+		overflow: hidden;
 	}
 	.gatito{
 		content:url(../images/kitten-small.png);
-		width: 25%;
+		width: 40%;
 		height: auto;
 		padding-top: 40%;
-		padding-left: 40%;
+		
 	}
 }	
 /*@media(max-width: 574px){
